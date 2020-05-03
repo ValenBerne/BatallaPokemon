@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/valentin.berne/Desktop/2020 Primer Cuatrimestre/Primer TP/batallas.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+batallas.h
+C:/Users/valentin.berne/Desktop/2020 Primer Cuatrimestre/Primer TP/batallas.h
+
+C:/Users/valentin.berne/Desktop/2020 Primer Cuatrimestre/Primer TP/batallas.h
+

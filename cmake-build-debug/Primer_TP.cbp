@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Primer_TP"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/valentin.berne/Desktop/2020 Primer Cuatrimestre/Primer TP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\valentin.berne\Desktop\2020 Primer Cuatrimestre\Primer TP\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\valentin.berne\Desktop\2020 Primer Cuatrimestre\Primer TP\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\valentin.berne\Desktop\2020 Primer Cuatrimestre\Primer TP\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\valentin.berne\Desktop\2020 Primer Cuatrimestre\Primer TP\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Primer_TP">
+				<Option output="C:/Users/valentin.berne/Desktop/2020 Primer Cuatrimestre/Primer TP/cmake-build-debug/Primer_TP.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/valentin.berne/Desktop/2020 Primer Cuatrimestre/Primer TP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\valentin.berne\Desktop\2020 Primer Cuatrimestre\Primer TP\cmake-build-debug\Makefile&quot; VERBOSE=1 Primer_TP"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\valentin.berne\Desktop\2020 Primer Cuatrimestre\Primer TP\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\valentin.berne\Desktop\2020 Primer Cuatrimestre\Primer TP\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\valentin.berne\Desktop\2020 Primer Cuatrimestre\Primer TP\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Primer_TP/fast">
+				<Option output="C:/Users/valentin.berne/Desktop/2020 Primer Cuatrimestre/Primer TP/cmake-build-debug/Primer_TP.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/valentin.berne/Desktop/2020 Primer Cuatrimestre/Primer TP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\valentin.berne\Desktop\2020 Primer Cuatrimestre\Primer TP\cmake-build-debug\Makefile&quot; VERBOSE=1 Primer_TP/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\valentin.berne\Desktop\2020 Primer Cuatrimestre\Primer TP\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\valentin.berne\Desktop\2020 Primer Cuatrimestre\Primer TP\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\valentin.berne\Desktop\2020 Primer Cuatrimestre\Primer TP\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/valentin.berne/Desktop/2020 Primer Cuatrimestre/Primer TP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\valentin.berne\Desktop\2020 Primer Cuatrimestre\Primer TP\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\valentin.berne\Desktop\2020 Primer Cuatrimestre\Primer TP\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\valentin.berne\Desktop\2020 Primer Cuatrimestre\Primer TP\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\valentin.berne\Desktop\2020 Primer Cuatrimestre\Primer TP\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/valentin.berne/Desktop/2020 Primer Cuatrimestre/Primer TP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\valentin.berne\Desktop\2020 Primer Cuatrimestre\Primer TP\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\valentin.berne\Desktop\2020 Primer Cuatrimestre\Primer TP\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\valentin.berne\Desktop\2020 Primer Cuatrimestre\Primer TP\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\valentin.berne\Desktop\2020 Primer Cuatrimestre\Primer TP\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/valentin.berne/Desktop/2020 Primer Cuatrimestre/Primer TP/batallas.c">
+			<Option target="Primer_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/valentin.berne/Desktop/2020 Primer Cuatrimestre/Primer TP/batallas.h">
+			<Option target="Primer_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/valentin.berne/Desktop/2020 Primer Cuatrimestre/Primer TP/main.c">
+			<Option target="Primer_TP"/>
+		</Unit>
+		<Unit filename="C:/Users/valentin.berne/Desktop/2020 Primer Cuatrimestre/Primer TP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

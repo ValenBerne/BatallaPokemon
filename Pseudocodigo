@@ -1,0 +1,51 @@
+
+/*
+ * Creará la estructura torneo_t, reservando la memoria necesaria para el mismo.
+ * Devolverá un puntero a un torneo, en el cual los participantes ya estarán cargados.
+ * En caso de no poder crearlo, o que la ruta del archivo no sea válida, devolverá NULL.
+ */
+torneo_t* torneo_crear(char *ruta_archivo);
+1) Reservar espacio en memoria para el torneo
+Si no la pudo guardar, devuelvo NULL
+2) Inicializar la ronda y la cantidad de entrenadores en 0
+3) Abrir el archivo
+Si no es valida la ruta, devuelvo NULL
+4) Reservar memoria para un entrenador
+Si no la pudo guardar, devuelvo NULL
+4-Bis) Reservar memoria para los 3 Pokemon
+Si no la pudo guardar, devuelvo NULL
+5) Leer una linea del archivo, guardando esos datos en la memoria reservada de un entrenador
+Si tiene un numero de Pokemon diferente a 3, devuelvo NULL
+6) Sumarle uno a la cantidad de entrenadores
+7) Repetir hasta no tener más entrenadores
+8) Cerrar el archivo
+9) Devolver el Torneo
+
+/*
+ * Hará competir a los entrenadores, dejando en la siguiente ronda al ganador de la batalla.
+ * El entrenador de la posición 0, lucha contra el de la posición 1, el de la 2 contra el de
+ * la 3, etc.
+ * Cuando un entrenador no tiene con quien luchar (cantidad impar de entrenadores en esa ronda)
+ * pasa directamente a la siguiente.
+ * El vector de entrenadores quedará solo con aquellos que ganaron la batalla (su tamaño se
+ * ajustará luego de cada ronda).
+ * Devolverá 0 si se jugó exitosamente, o -1 en caso contrario.
+ * Si en el torneo hay sólo un entrenador, no se puede jugar y la funcion devuelve -1.
+ */
+int torneo_jugar_ronda(torneo_t* torneo, int (*ganador_batalla)(entrenador_t* ,entrenador_t*));
+
+
+/*
+ * Mostrará por pantalla el nombre de cada entrenador, junto a sus pokémones.
+ * Dependiendo de la función enviada por parametros (la cual refiere a una batalla), mostrará
+ * distintas caracteristicas de dichos pokémones.
+ */ Hace una lista de todos los entrenadores, depende de la funcion que le pases, depende como se muestran (Hay que hacer varias y ser creativos)
+ void torneo_listar(torneo_t* torneo, void (*formatear_entrenador)(entrenador_t*));
+
+
+/*
+ * Destruirá la estructura del torneo, liberando la memoria reservada para él y los entrenadores.
+ */
+void torneo_destruir(torneo_t* torneo);
+1) Recorro los entrenadores, les libero los Pokemon y después los libero a ellos
+2) Libero el torneo
