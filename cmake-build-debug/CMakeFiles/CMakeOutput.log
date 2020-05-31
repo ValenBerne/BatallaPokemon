@@ -1,4 +1,4 @@
-The system is: Windows - 10.0.18362 - AMD64
+The system is: Windows - 10.0.18363 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: C:/Program Files (x86)/Microsoft Visual Studio 12.0/VC/bin/cl.exe 
 Build flags: 
@@ -26,24 +26,24 @@ The C compiler identification is MSVC, found in "C:/Users/valentin.berne/Desktop
 Determining if the C compiler works passed with the following output:
 Change Dir: C:/Users/valentin.berne/Desktop/2020 Primer Cuatrimestre/Primer TP/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_94a3d\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\BIN\nmake.exe" -f CMakeFiles\cmTC_94a3d.dir\build.make /nologo -L                  CMakeFiles\cmTC_94a3d.dir\build
-Building C object CMakeFiles/cmTC_94a3d.dir/testCCompiler.c.obj
-	C:\PROGRA~2\MICROS~1.0\VC\bin\cl.exe @C:\Users\VALENT~1.BER\AppData\Local\Temp\nm24F2.tmp
+Run Build Command(s):nmake /nologo cmTC_547c8\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\BIN\nmake.exe" -f CMakeFiles\cmTC_547c8.dir\build.make /nologo -L                  CMakeFiles\cmTC_547c8.dir\build
+Building C object CMakeFiles/cmTC_547c8.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MICROS~1.0\VC\bin\cl.exe @C:\Users\VALENT~1.BER\AppData\Local\Temp\nm71A2.tmp
 testCCompiler.c
-Linking C executable cmTC_94a3d.exe
-	"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_94a3d.dir --rc="C:\PROGRA~2\Windows Kits\8.1\bin\x86\rc.exe" --mt="C:\PROGRA~2\Windows Kits\8.1\bin\x86\mt.exe" --manifests  -- C:\PROGRA~2\MICROS~1.0\VC\bin\link.exe /nologo @CMakeFiles\cmTC_94a3d.dir\objects1.rsp @C:\Users\VALENT~1.BER\AppData\Local\Temp\nm2D40.tmp
+Linking C executable cmTC_547c8.exe
+	"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_547c8.dir --rc="C:\PROGRA~2\Windows Kits\8.1\bin\x86\rc.exe" --mt="C:\PROGRA~2\Windows Kits\8.1\bin\x86\mt.exe" --manifests  -- C:\PROGRA~2\MICROS~1.0\VC\bin\link.exe /nologo @CMakeFiles\cmTC_547c8.dir\objects1.rsp @C:\Users\VALENT~1.BER\AppData\Local\Temp\nm7C9F.tmp
 
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/valentin.berne/Desktop/2020 Primer Cuatrimestre/Primer TP/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_8bd2e\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\BIN\nmake.exe" -f CMakeFiles\cmTC_8bd2e.dir\build.make /nologo -L                  CMakeFiles\cmTC_8bd2e.dir\build
-Building C object CMakeFiles/cmTC_8bd2e.dir/CMakeCCompilerABI.c.obj
-	C:\PROGRA~2\MICROS~1.0\VC\bin\cl.exe @C:\Users\VALENT~1.BER\AppData\Local\Temp\nm522C.tmp
+Run Build Command(s):nmake /nologo cmTC_a2e35\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\BIN\nmake.exe" -f CMakeFiles\cmTC_a2e35.dir\build.make /nologo -L                  CMakeFiles\cmTC_a2e35.dir\build
+Building C object CMakeFiles/cmTC_a2e35.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\MICROS~1.0\VC\bin\cl.exe @C:\Users\VALENT~1.BER\AppData\Local\Temp\nmA6DB.tmp
 CMakeCCompilerABI.c
-Linking C executable cmTC_8bd2e.exe
-	"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_8bd2e.dir --rc="C:\PROGRA~2\Windows Kits\8.1\bin\x86\rc.exe" --mt="C:\PROGRA~2\Windows Kits\8.1\bin\x86\mt.exe" --manifests  -- C:\PROGRA~2\MICROS~1.0\VC\bin\link.exe /nologo @CMakeFiles\cmTC_8bd2e.dir\objects1.rsp @C:\Users\VALENT~1.BER\AppData\Local\Temp\nm57BB.tmp
+Linking C executable cmTC_a2e35.exe
+	"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_a2e35.dir --rc="C:\PROGRA~2\Windows Kits\8.1\bin\x86\rc.exe" --mt="C:\PROGRA~2\Windows Kits\8.1\bin\x86\mt.exe" --manifests  -- C:\PROGRA~2\MICROS~1.0\VC\bin\link.exe /nologo @CMakeFiles\cmTC_a2e35.dir\objects1.rsp @C:\Users\VALENT~1.BER\AppData\Local\Temp\nmACA8.tmp
 
 
 

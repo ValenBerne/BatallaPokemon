@@ -1,0 +1,5 @@
+Entrenador1;Pikachu;40;90;70;Charizard;76;60;90;Snorlax;200;10;10
+Entrenador2;Nidoqueen;100;40;90;Nidoking;160;62;76;Rhydon;180;77;42
+Entrenador3;Nidoqueen;100;40;90;Nidoking;160;62;76;Rhydon;180;77;42
+Entrenador4;Pikachu;40;90;70;Charizard;76;60;90;Snorlax;200;10;10
+Entrenador5;Nidoqueen;100;40;90;Nidoking;160;62;76;Rhydon;180;77;42
